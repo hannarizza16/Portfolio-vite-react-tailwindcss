@@ -6,7 +6,7 @@ import ElderlyCareNotesApp from "../../../assets/img/elderlycareapp.png"
 const projects = [
     {
         id: 1,
-        title: "Recipe Generator",
+        title: "Recipe Generator w/ AI",
         description: `A recipe generator where you can generate a recipe by simply entering the name of a dish,
          and with the **chat with ai** section you can search for the meal you want eg. "Filipino breakfast" depending on what you crave for that day `,
         imageUrl: RecipeGenerator,
@@ -48,7 +48,7 @@ const projects = [
     },
     {
         id: 5,
-        title: "Elderly Care Notes App",
+        title: "Elderly Care Notes App w/ AI",
         description: `The Elderly care app was a group project in our bootcamp wherein we collaborated and share ideas.
         Elderly Care Notes is an application that monitors the patient's medical record, health status, and appointments to Doctor. user can also set a reminder and communicate with families via chat inside the app.
         It's a all in all monitoring system that focuses the elderly patients`,
