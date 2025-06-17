@@ -1,0 +1,11 @@
+.footer-bg{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2); /* Black with 80% opacity */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+    text-align: center;
+    z-index: 1030; 
+}
