@@ -23,7 +23,7 @@ export default function About() {
   }, []); 
 
   return (
-    <div className="flex justify-center min-h-screen py-10 px-4">
+    <div className="flex justify-center min-h-screen py-15 px-4">
       <div className="max-w-screen-lg w-full ">
         <span ref={typingRef} className="text-xl leading-relaxed block h-32 text-white break-words"></span>
         <div className="text-2xl font-semibold pt-50">
@@ -32,7 +32,7 @@ export default function About() {
         <div className="flex flex-wrap mt-4 gap-2">
           
             {skills.map((skill) => (
-              <div className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+              <div key={skill.id} className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
               <span key={skill.id} className="flex items-center gap-2 text-lg text-white box-border border- p-2  cursor-pointer relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
               <img src={skill.icon} alt={skill.skill} className="w-10 h-auto" />
               {skill.skill}
