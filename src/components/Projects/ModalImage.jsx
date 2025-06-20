@@ -1,6 +1,22 @@
 import { X } from 'lucide-react'
+import { useEffect } from 'react'
 
 export default function ModalImage({ imageUrl, onClose }) {
+
+  useEffect (() => {
+    const handleEsc = (e) => {
+      if (e.key === "Escape"){
+        onClose()
+      }
+    }
+
+    window.addEventListener("keydown", handleEsc)
+
+    return() => {
+      window.addEventListener("keydown", handleEsc)
+    }
+  }, [onClose]) // everytime esc is clicked
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center">
       {/* Background overlay only */}

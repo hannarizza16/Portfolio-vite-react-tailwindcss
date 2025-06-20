@@ -24,7 +24,7 @@ const projects = [
     {
         id: 3,
         title: "Job Application Ledger (MERN)",
-        description: "A Job Application Ledger taht uses MongoDB as a database, where users can add, archive and delete to manage their Applications to different companies.",
+        description: "A Job Application Ledger that uses MongoDB as a database, where users can add, archive and delete to manage their Applications to different companies.",
         imageUrl: JobApplicationLedgerLocalStorage,
         techStack: ["React", "MongoDB", "Express", "Node.js"],
         link:"https://jobapplicationledger.netlify.app/"
@@ -36,7 +36,7 @@ const projects = [
         imageUrl: TodoList,
         techStack: ["React", "MongoDB", "Express", "Node.js"],
 
-        link:"https://pokedex-mern.netlify.app/"
+        link:"https://todolist-fullstack-mern.netlify.app/todolist"
     },
     {
         id: 5,
@@ -54,9 +54,8 @@ const projects = [
         It's a all in all monitoring system that focuses the elderly patients`,
         imageUrl: ElderlyCareNotesApp,
         techStack: ["React", "MongoDB", "Express", "Node.js", "Cloudinary"],
-        link:"https://elderly-care-notes.netlify.app/home"
+        link:"https://elderly-care-notes.netlify.app/"
     }
-
 ]
 
 export default projects

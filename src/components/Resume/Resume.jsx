@@ -21,3 +21,8 @@ export default function Resume() {
     </>
   )
 } 
+
+// noopener - protects against windows exploit eg. window.opener.location = 'http://malicious-site.com';
+// Adding noopener disables window.opener to protect your site.
+
+// noreferrer - hides the referrer info 
