@@ -38,14 +38,26 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
-              <a
+
+              <div className="flex space-x-4">
+                <a
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
-                View Project →
+                View Project 
               </a>
+              <a
+                href={project.githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                View Github
+              </a>
+              </div>
+              
             </div>
           </div>
         ))}

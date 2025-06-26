@@ -11,7 +11,8 @@ const projects = [
          and with the **chat with ai** section you can search for the meal you want eg. "Filipino breakfast" depending on what you crave for that day `,
         imageUrl: RecipeGenerator,
         techStack: ["JavaScript", "CSS", "GEMINI API"],
-        link:"https://recipeaigenerator.netlify.app/"
+        link:"https://recipeaigenerator.netlify.app/",
+        githubLink: "https://github.com/hannarizza16/generate_recipe"
     },
     {
         id: 2,
@@ -19,7 +20,8 @@ const projects = [
         description: "A Simple Job Application Ledger where users can add, archive and delete to manage their Applications to different companies.",
         imageUrl: JobApplicationLedgerLocalStorage,
         techStack: ["React", "Tailwindcss", "Local Storage"],
-        link:"https://job-application-ledger.netlify.app/"
+        link:"https://job-application-ledger.netlify.app/",
+        githubLink: "https://github.com/hannarizza16/job-application-ledger"
     },
     {
         id: 3,
@@ -27,7 +29,8 @@ const projects = [
         description: "A Job Application Ledger that uses MongoDB as a database, where users can add, archive and delete to manage their Applications to different companies.",
         imageUrl: JobApplicationLedgerLocalStorage,
         techStack: ["React", "MongoDB", "Express", "Node.js"],
-        link:"https://jobapplicationledger.netlify.app/"
+        link:"https://jobapplicationledger.netlify.app/",
+        githubLink: "https://github.com/hannarizza16/job-application-ledger-w--database"
     },
     {
         id: 4 ,
@@ -35,8 +38,8 @@ const projects = [
         description: "A simple Todo List where you can add, edit, delete and mark your list as complete.",
         imageUrl: TodoList,
         techStack: ["React", "MongoDB", "Express", "Node.js"],
-
-        link:"https://todolist-fullstack-mern.netlify.app/todolist"
+        link:"https://todolist-fullstack-mern.netlify.app/todolist",
+        githubLink: "https://github.com/hannarizza16/todo-list-mern"
     },
     {
         id: 5,
@@ -44,7 +47,8 @@ const projects = [
         description: "A MERN app where users can add, edit, delete and upload image of a pokemon.",
         imageUrl: PokedexImage,
         techStack: ["React", "MongoDB", "Express", "Node.js", "Cloudinary"],
-        link:"https://pokedex-mern.netlify.app/"
+        link:"https://pokedex-mern.netlify.app/",
+        githubLink: "https://github.com/hannarizza16/pokedex-app-mern"
     },
     {
         id: 5,
@@ -54,7 +58,8 @@ const projects = [
         It's a all in all monitoring system that focuses the elderly patients`,
         imageUrl: ElderlyCareNotesApp,
         techStack: ["React", "MongoDB", "Express", "Node.js", "Cloudinary"],
-        link:"https://elderly-care-notes.netlify.app/"
+        link:"https://elderly-care-notes.netlify.app/",
+        githubLink: "https://github.com/hannarizza16/elderly_care_notes_app_mern"
     }
 ]
 
