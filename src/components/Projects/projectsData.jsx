@@ -58,8 +58,9 @@ const projects = [
         It's a all in all monitoring system that focuses the elderly patients`,
         imageUrl: ElderlyCareNotesApp,
         techStack: ["React", "MongoDB", "Express", "Node.js", "Cloudinary"],
-        link:"https://elderly-care-notes.netlify.app/",
+        link:"https://elderly-care-notes-app-mern.netlify.app/",
         githubLink: "https://github.com/hannarizza16/elderly_care_notes_app_mern"
+        
     }
 ]
 
