@@ -4,7 +4,7 @@ import skills from "./Skills.jsx"
 export default function About() {
   const typingRef = useRef(null);
   const fullText =
-    "Hi, I'm Hanna Rizza Malana, an aspiring web developer. I graduated from Rizal Technological University with a degree in Bachelor of Science in Information Technology. I also enrolled in the Uplift Code Camp Bootcamp to deepen my knowledge in web development. Aside from that, I've also gained valuable experience in applying best coding practices and collaborating effectively with fellow developers.";
+    "Hi, I'm Hanna Rizza Malana, an aspiring web developer. I graduated from Rizal Technological University with a degree in Bachelor of Science in Information Technology. I also enrolled in the Uplift Code Camp Bootcamp to deepen my knowledge in web development. Aside from that, I've also gained valuable experience in applying best coding practices and collaboration with my fellow developers.";
 
   useEffect(() => {
     let index = 0;
