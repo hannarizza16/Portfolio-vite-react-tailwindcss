@@ -3,6 +3,7 @@ import RecipeGenerator from "../../../assets/img/recipeGenerator.png"
 import JobApplicationLedgerLocalStorage from "../../../assets/img/jobAppLocalStorage.png"
 import TodoList from "../../../assets/img/todoList.png"
 import ElderlyCareNotesApp from "../../../assets/img/elderlycareapp.png"
+import RealEstateWebpage from "../../../assets/img/real.estate.webpage.png"
 const projects = [
     {
         id: 1,
@@ -60,7 +61,15 @@ const projects = [
         techStack: ["React", "MongoDB", "Express", "Node.js", "Cloudinary"],
         link:"https://elderly-care-notes-app-mern.netlify.app/",
         githubLink: "https://github.com/hannarizza16/elderly_care_notes_app_mern"
-        
+    },{
+        // 
+        id: 6,
+        title: "Real Estate Webpage",
+        description: `A responsive real estate webpage that showcases different houses with modern layouts, property details, and an intuitive design for easy browsing on any device.`,
+        imageUrl: RealEstateWebpage,
+        techStack: ["ViteJs", "JavaScript", "TailwindCSS"],
+        link:"https://marci-metzger-realtor.netlify.app/",
+        githubLink: "https://github.com/hannarizza16/realtor-web-design"
     }
 ]
 
