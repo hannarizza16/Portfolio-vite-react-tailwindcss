@@ -52,7 +52,7 @@ const projects = [
         githubLink: "https://github.com/hannarizza16/pokedex-app-mern"
     },
     {
-        id: 5,
+        id: 6,
         title: "Elderly Care Notes App w/ AI",
         description: `The Elderly care app was a group project in our bootcamp wherein we collaborated and share ideas.
         Elderly Care Notes is an application that monitors the patient's medical record, health status, and appointments to Doctor. user can also set a reminder and communicate with families via chat inside the app.
@@ -63,9 +63,10 @@ const projects = [
         githubLink: "https://github.com/hannarizza16/elderly_care_notes_app_mern"
     },{
         // 
-        id: 6,
+        id: 7,
         title: "Real Estate Webpage",
-        description: `A responsive real estate webpage that showcases different houses with modern layouts, property details, and an intuitive design for easy browsing on any device.`,
+        description:`This is an existing real estate webpage that showcases different houses I improved and modernized the layout of the Home Page.
+        I made it responsive and easy to navigate and shows what the client can offer. <br/> You can also check the <a href="https://marcimetzger.com/" target="_blank" rel="noopener noreferrer">real page here</a> and compare it.`,
         imageUrl: RealEstateWebpage,
         techStack: ["ViteJs", "JavaScript", "TailwindCSS"],
         link:"https://marci-metzger-realtor.netlify.app/",
