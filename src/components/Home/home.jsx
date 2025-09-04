@@ -20,7 +20,7 @@ export default function Home() {
   
     <Resume/>
   
-    <Counter/>
+    {/* <Counter/> */}
   
   
 </div>

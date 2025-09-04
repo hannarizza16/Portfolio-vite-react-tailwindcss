@@ -8,7 +8,7 @@ export default function Resume() {
     {/* <div className="flex place-items-center justify-center min-w-[320px] min-h-[100vh] "> */}
       <button onClick={() => {
         const link = document.createElement("a")
-        link.href = "HannaMalana_Resume.pdf"
+        link.href = "HannaMalana_FullStackDeveloper_2025.pdf"
         // link.download = "Resume_Hanna_Rizza_Malana.pdf"
         link.target = "_blank"
         link.rel="noopener noreferrer" // 
